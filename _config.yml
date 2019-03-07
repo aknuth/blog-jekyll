@@ -1,0 +1,54 @@
+# Site
+name: "Andreas Knuth"
+title: "Full Stack Web Development"
+description: "Blog-Beiträge zum Thema Software Entwicklung"
+meta_description: "Node.js Angular Visual Studio Code"
+logo: 'assets/images/logo1.svg'
+favicon: 'assets/images/logo.png'
+baseurl: ''
+google_analytics: 'UA-132337390-1'
+disqus: 'demowebsite'
+mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+include: ["_pages"]
+permalink: /:title/
+
+# Authors
+authors:
+  sal:
+    name: Andreas
+    display_name: Andreas
+    gravatar: fa115ec8cc56ed69d153b2081190fe9a
+    email: andreas.knuth@gmail.com
+    web: https://www.andreasknuth.de
+    twitter: https://twitter.com/wowthemesnet
+    description: "Author of Full Stack Web Development"
+
+# Plugins
+plugins: 
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+    
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Pagination 
+paginate: 6
+paginate_path: /page:num/
+    
+# Other
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
