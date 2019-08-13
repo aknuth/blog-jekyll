@@ -1,7 +1,7 @@
 # Site
 name: "Andreas Knuth"
 title: "Full Stack Web Development"
-description: "Blog-Beiträge zum Thema Software Entwicklung"
+description: "Blog-Beiträge zu den Themen Server Fu und Software Entwicklung"
 meta_description: "Node.js Angular Visual Studio Code"
 logo: 'assets/images/logo1.svg'
 favicon: 'assets/images/logo.png'
